@@ -1,14 +1,29 @@
 .wrapper {
     background-color: #fffbeb;
     width: 100%;
-    display: flex;
-    column-gap: 10px;
-    justify-content: space-between;
-    padding: 20px 15px;
     height: 95px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    max-width: 375px;
+    margin: auto;
 }
 
 .item {
     text-align: center;
     color: #171717;
+    padding: 20px 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.item:hover {
+    background-color: #fcd34d;
+}
+
+.active {
+    background-color: #451a03;
+    color: #fff;
 }

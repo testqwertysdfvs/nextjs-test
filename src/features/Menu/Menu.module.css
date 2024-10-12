@@ -7,7 +7,7 @@
 .container {
     display: flex;
     justify-content: center;
-    max-width: 375px;
+    max-width: 376px;
     margin: auto;
 }
 
@@ -15,8 +15,14 @@
     text-align: center;
     color: #171717;
     padding: 20px 15px;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+    border-radius: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    @media (min-width: 376px) {
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+    }
 }
 
 .item:hover {

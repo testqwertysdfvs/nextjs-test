@@ -7,14 +7,14 @@
 
 .title {
     display: block;
-    @media (max-width: 375px) {
+    @media (max-width: 376px) {
         display: none;
     }
 }
 
 .titleShort {
     display: none;
-    @media (max-width: 375px) {
+    @media (max-width: 376px) {
         display: block;
     }
 }

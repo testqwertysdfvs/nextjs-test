@@ -1,0 +1,14 @@
+.wrapper {
+    background-color: #fffbeb;
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    justify-content: space-between;
+    padding: 20px 15px;
+    height: 95px;
+}
+
+.item {
+    text-align: center;
+    color: #171717;
+}

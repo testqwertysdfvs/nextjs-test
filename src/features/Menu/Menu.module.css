@@ -7,7 +7,6 @@
 .container {
     display: flex;
     justify-content: center;
-    max-width: 376px;
     margin: auto;
 }
 
@@ -15,13 +14,29 @@
     text-align: center;
     color: #171717;
     padding: 20px 15px;
+    width: 100%;
     border-radius: 0;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
     @media (min-width: 376px) {
+        width: auto;
         border-radius: 0;
         border-bottom-left-radius: 8px;
         border-bottom-right-radius: 8px;
+    }
+}
+
+.text {
+    display: none;
+    @media (min-width: 376px) {
+        display: block;
+    }
+}
+
+.textShort {
+    display: block;
+    @media (min-width: 376px) {
+        display: none;
     }
 }
 

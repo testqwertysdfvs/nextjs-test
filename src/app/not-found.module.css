@@ -7,7 +7,7 @@
 }
 
 .title, .description {
-  text-align: center;
+    text-align: center;
     color: #171717;
 }
 
@@ -18,8 +18,4 @@
 
 .description {
     font-size: 16px;
-}
-
-.link {
-    color: dodgerblue;
 }

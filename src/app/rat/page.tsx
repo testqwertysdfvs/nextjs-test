@@ -1,13 +1,12 @@
 import React from "react";
-import { Rat } from "lucide-react";
 import styles from "./page.module.css";
+import {ContentIcon} from "@/features/ContentIcon";
 
 export default function RatPage() {
     return (
         <div className={styles.wrapper}>
             <div className={styles.content}>
-            <h1>Rat</h1>
-            <Rat size={80}/>
+            <ContentIcon iconName={'rat'} title={'Red Rat'} titleShort={'Rat'} />
             <div className={styles.container}>
                 <div className={styles.item1}>1</div>
                 <div className={styles.item2}>2</div>

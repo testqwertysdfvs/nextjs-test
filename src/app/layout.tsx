@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import {Menu} from "@/features/Menu";
+import {Menu} from "@/widgets/Menu";
 
 import styles from "./layout.module.css";
 

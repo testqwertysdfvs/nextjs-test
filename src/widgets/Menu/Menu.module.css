@@ -42,6 +42,7 @@
 
 .item:hover {
     background-color: #fcd34d;
+    transition-duration: .2s;
 }
 
 .active {

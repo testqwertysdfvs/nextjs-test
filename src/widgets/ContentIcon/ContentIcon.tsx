@@ -33,8 +33,8 @@ export const ContentIcon: FC<Props> = ({
     }
 
     return <div className={styles.wrapper}>
-        <h1 className={styles.title}>{title}</h1>
         <h1 className={styles.titleShort}>{titleShort}</h1>
         {icon}
+        <h1 className={styles.title}>{title}</h1>
     </div>
 };
